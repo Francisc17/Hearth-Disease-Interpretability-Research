@@ -26,7 +26,8 @@ The dataset was obtained from the [IEEEDataPort database](https://ieee-dataport.
 | exercise angina (yes)          | 316 (62%)                | 55 (13%)                    | <0.001      |
 | oldpeak                        | 1.277 ± 1.2              | 0.408 ± 0.7                 | <0.001      |
 | ST slope (flat)                | 380 (75%)                | 79 (19%)                    | <0.001      |
-	note: T-test in numeric variables and chi square for nominal and binary features.
+
+note: T-test in numeric variables and chi square for nominal and binary features.
 
 ---
 # Pre-processing
