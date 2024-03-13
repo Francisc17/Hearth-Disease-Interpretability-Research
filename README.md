@@ -33,7 +33,7 @@ The dataset was obtained from the [IEEEDataPort database](https://ieee-dataport.
 
 1. imputation of zero cholesterol values
 
-```Python
+```python
 # Regression model to fill invalid cholesterol data
 
 from sklearn.ensemble import RandomForestRegressor
@@ -54,16 +54,19 @@ sns.scatterplot(x = 'cholesterol', y = 'age', hue = 'target', data = dataset)
 
 ![imput cholesterol](https://i.imgur.com/TWGXRE4.png)
 
+
 2. Removing duplicated data
 
-```Python
+```python
 #Verification of duplicated data
 print('Duplicated dataset: ',dataset.shape)
 dataset.drop_duplicates(inplace=True)
 print('Dataset after drop duplicates: ',dataset.shape)
 ```
-	Duplicated dataset:  (1189, 12)
-	Dataset after drop duplicates:  (917, 12)
+
+Duplicated dataset:  (1189, 12)
+Dataset after drop duplicates:  (917, 12)
+
 
 3. Creating a unseen data set (or test set)
 
@@ -71,7 +74,7 @@ Usually, a part of the data is separated in order to carry out the final validat
 
 ![train test cut](https://i.imgur.com/PupS6ME.png)
 
-```Python
+```python
 data = dataset.sample(frac=0.95, random_state=786)
 data_unseen = dataset.drop(data.index)
 
@@ -81,15 +84,16 @@ data_unseen.reset_index(inplace=True, drop=True)
 print('Data for Modeling: ' + str(data.shape))
 print('Unseen Data For Predictions ' + str(data_unseen.shape))
 ```
-	Data for Modeling: (871, 12)
-	Unseen Data For Predictions (46, 12)
+
+Data for Modeling: (871, 12)
+Unseen Data For Predictions (46, 12)
 
 ---
 # Training and evaluation
 
 PyCaret was used to train the different machine learning algorithms. PyCaret is a comprehensive, open-source, low-code machine learning library in Python designed to simplify the end-to-end process of building, training, evaluating, and deploying machine learning models. It offers a wide range of functionalities including automated data preprocessing, feature selection, model comparison, hyperparameter tuning, ensemble methods, and model interpretation, making it an ideal choice for both beginners and experienced data scientists looking to streamline their workflow and accelerate model development \[9].
 
-```Python
+```python
 exp_clf102 = setup(data = data, target = 'target',
                   normalize = True, 
                   transformation = True, 
