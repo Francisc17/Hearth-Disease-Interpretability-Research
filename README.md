@@ -185,10 +185,12 @@ With this work, we found out that we can build a model that works very well and 
 - Creation of a ML model capable of predicting heart disease with a very good performance
 - Interpretable model, providing all the information needed to understand how the model arrived at a given prediction. This makes the process much more transparent, paving the way for its potential practical application.
 - Model validated and evaluated in three different phases (training, validation, unseen data). In addition, different models and hyperparameter tuning algorithms were tested and compared.
+
 ## Limitations
 - In the preprocessing phase, other procedures and methods could be explored and tested. 
 - The selection of the ML models was not made by any specific criteria such as the size of the data or the representativeness of the sample itself.
 - It is not possible to guarantee that the performance will be maintained when applied in a real context because only one dataset was used here.
+
 ## Future work
 - Adding more data from different sources, in order to create more diversity and thus guarantee greater confidence in the results and the classifier's ability to generalize.
 - Make the model available online using MLaas, using solutions like MLCapsule \[11].
