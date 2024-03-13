@@ -191,13 +191,23 @@ With this work, we found out that we can build a model that works very well and 
 ---
 # References
 \[1] : [https://www.who.int/health-topics/cardiovascular-diseases](https://www.who.int/health-topics/cardiovascular-diseases)
+
 \[2]: [https://www.sciencedirect.com/science/article/abs/pii/S0933365722000549](https://www.sciencedirect.com/science/article/abs/pii/S0933365722000549)
+
 \[3]: [https://ieeexplore.ieee.org/abstract/document/10306469](https://ieeexplore.ieee.org/abstract/document/10306469)
+
 \[4]: [https://jpmm.um.edu.my/index.php/MJCS/article/view/35980](https://jpmm.um.edu.my/index.php/MJCS/article/view/35980)
+
 \[5]: [https://iopscience.iop.org/article/10.1088/1757-899X/1022/1/012072/meta](https://iopscience.iop.org/article/10.1088/1757-899X/1022/1/012072/meta)
+
 \[6]: [https://journals.sagepub.com/doi/full/10.1177/1179546820927404](https://journals.sagepub.com/doi/full/10.1177/1179546820927404)
+
 \[7]: [https://ieeexplore.ieee.org/abstract/document/10087837](https://ieeexplore.ieee.org/abstract/document/10087837)
+
 \[8]: [https://wires.onlinelibrary.wiley.com/doi/full/10.1002/widm.1424](https://wires.onlinelibrary.wiley.com/doi/full/10.1002/widm.1424)
+
 \[9]: [https://pycaret.gitbook.io/docs](https://pycaret.gitbook.io/docs)
+
 \[10]: [https://arxiv.org/abs/1811.12808](https://arxiv.org/abs/1811.12808)
-\[11]: https://arxiv.org/abs/1808.00590
+
+\[11]: [https://arxiv.org/abs/1808.00590](https://arxiv.org/abs/1808.00590)
